@@ -1,0 +1,257 @@
+:root {
+    --red: rgb(216, 26, 26);
+    
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: rgb(143, 0, 0);
+    min-height: 100vh;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.pg-padding {
+    padding: 100px 50px;
+
+    max-width: 1440px;
+    margin: 50px auto;
+}
+
+header {
+    background-color: var(--red);
+}
+
+.sec-info,
+.sec1,
+.sec2,
+.sec3,
+.feature {
+
+    text-align: center;
+}
+
+
+section {
+    background-color: var(--red);
+}
+
+.feature {
+    padding: 100px;
+}
+
+
+
+.sec1>div,
+.sec2>div,
+.sec3>div {
+    max-width: 500px;
+    margin: auto;
+}
+
+
+
+h1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3.8rem;
+    text-shadow: 5px 5px 20px black;
+   
+}
+
+h2 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.7rem;
+    text-shadow: 5px 5px 10px black;
+    line-height: 150%;
+}
+
+h3 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    text-shadow: 5px 5px 20px black;
+}
+
+h4 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 5px 5px 8px black;
+}
+
+h5 {
+    color: white;
+    font-size: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 5px 5px 8px black;
+    line-height: 140%;
+}
+
+.home-button {
+    text-align: center;
+
+}
+
+.home-button:hover {
+    transition: ease-in-out 0.2s;
+    filter: drop-shadow(20px 20px 20px black);
+    scale: 1.1;
+}
+
+
+
+.align {
+    text-align: center;
+}
+
+.movie1:hover,
+.movie2:hover,
+.movie3:hover {
+    filter: drop-shadow(0px 0px 30px black);
+    transition: 0.2s;
+}
+
+footer {
+    background-color: var(--red);
+    padding: 10px 100px;
+    text-align: center;
+}
+
+.cover1 div {
+
+    background-image: url("../images/puss_cover.png");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    padding: 100px;
+    
+
+}
+
+.cover2 div {
+
+    background-image: url("../images/spider_cover.png");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    padding: 100px;
+    
+
+}
+
+.cover3 div {
+
+    background-image: url("../images/tmnt_cover.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    padding: 100px;
+    
+
+}
+
+.cover4 div {
+
+    background-image: url("../images/mouse-COVER.jpg");
+    background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    padding: 100px;
+
+}
+
+.artstyle,
+.animation {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 50px;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+
+
+
+.artstyle div:nth-child(2) {
+    grid-column: 1;
+    grid-row: 1;
+    text-align: right;
+
+}
+
+.artstyle div:nth-child(1) {
+    grid-column: 2;
+}
+
+.back-button {
+    scale: 0.6;
+    text-align: center;
+
+}
+
+.back-button:hover {
+    filter: drop-shadow(0px 0px 20px black);
+    scale: 0.7;
+    transition: 0.2s;
+}
+
+.video {
+    scale: 0.9;
+}
+
+.video:hover {
+    filter: drop-shadow(0px 0px 20px black);
+    scale: 1;
+    transition: 0.2s;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .artstyle,
+    .animation {
+        
+        grid-template-columns: 1fr;
+        grid-gap: 50px;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+
+    .artstyle div:nth-child(2) {
+        grid-column: 1;
+        grid-row: 1;
+        text-align: right;
+    
+    }
+    
+    .artstyle div:nth-child(1) {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .animation div:nth-child(2) {
+        grid-column: 1;
+        grid-row: 1;
+        text-align: right;
+    
+    }
+    
+    .animation div:nth-child(1) {
+        grid-column: 1;
+
+}
+}
+
+
+
