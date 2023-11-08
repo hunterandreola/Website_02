@@ -1,6 +1,6 @@
 :root {
     --red: rgb(216, 26, 26);
-    
+
 }
 
 * {
@@ -63,7 +63,7 @@ h1 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3.8rem;
     text-shadow: 5px 5px 20px black;
-   
+
 }
 
 h2 {
@@ -103,7 +103,7 @@ h5 {
 .home-button:hover {
     transition: ease-in-out 0.2s;
     filter: drop-shadow(20px 20px 20px black);
-    scale: 1.1;
+    transform: scale(1.1);
 }
 
 
@@ -133,7 +133,7 @@ footer {
     background-repeat: no-repeat;
     display: grid;
     padding: 100px;
-    
+
 
 }
 
@@ -145,7 +145,7 @@ footer {
     background-repeat: no-repeat;
     display: grid;
     padding: 100px;
-    
+
 
 }
 
@@ -157,7 +157,7 @@ footer {
     background-repeat: no-repeat;
     display: grid;
     padding: 100px;
-    
+
 
 }
 
@@ -196,24 +196,24 @@ footer {
 }
 
 .back-button {
-    scale: 0.6;
+    transform: scale(0.6);
     text-align: center;
 
 }
 
 .back-button:hover {
     filter: drop-shadow(0px 0px 20px black);
-    scale: 0.7;
+    transform: scale(0.7);
     transition: 0.2s;
 }
 
 .video {
-    scale: 0.9;
+    transform: scale(0.9);
 }
 
 .video:hover {
     filter: drop-shadow(0px 0px 20px black);
-    scale: 1;
+    transform: scale(1.1);
     transition: 0.2s;
 }
 
@@ -221,7 +221,7 @@ footer {
 
     .artstyle,
     .animation {
-        
+
         grid-template-columns: 1fr;
         grid-gap: 50px;
         align-items: center;
@@ -232,9 +232,9 @@ footer {
         grid-column: 1;
         grid-row: 1;
         text-align: right;
-    
+
     }
-    
+
     .artstyle div:nth-child(1) {
         grid-column: 1;
         grid-row: 2;
@@ -244,14 +244,11 @@ footer {
         grid-column: 1;
         grid-row: 1;
         text-align: right;
-    
+
     }
-    
+
     .animation div:nth-child(1) {
         grid-column: 1;
 
+    }
 }
-}
-
-
-
